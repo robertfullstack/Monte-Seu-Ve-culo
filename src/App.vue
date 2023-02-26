@@ -1,26 +1,61 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <body>
+    <header>
+      <Header :logo="logo_src" :alt="logo_alt"/>
+    </header>
+    <main>
+      <router-view />    
+    </main>
+    <footer>
+      <Footer />
+    </footer>
+  </body>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue';
+import Footer from './components/Footer.vue';
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    Header,
+    Footer
+  },
+  data() {
+    return {
+      logo_src: "https://img.freepik.com/vetores-premium/logotipo-do-carro-vector_25327-40.jpg",
+      logo_alt: "Blaze Cars"
+    }
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  header {
+    background-color: black;
+  }
+
+
+  main {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-container {
+    width: 100%;
+    min-height: 250px;
+    /* min-height: 250px; */
+  }
 </style>
