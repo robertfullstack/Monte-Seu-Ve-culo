@@ -1,81 +1,1547 @@
 {
-    "ingredientes": {
-        "paes": [
-            {
-                "id": 1,
-                "tipo": "Italiano Branco"
-            },
-            {
-                "id": 2,
-                "tipo": "3 Queijos"
-            },
-            {
-                "id": 3,
-                "tipo": "Parmesão e Orégano"
-            },
-            {
-                "id": 4,
-                "tipo": "Integral"
-            }
-        ],
-        "carnes": [
-            {
-                "id": 1,
-                "tipo": "Maminha"
-            },
-            {
-                "id": 2,
-                "tipo": "Alcatra"
-            },
-            {
-                "id": 3,
-                "tipo": "Picanha"
-            },
-            {
-                "id": 4,
-                "tipo": "Veggie burger"
-            }
-        ],
-        "opcionais": [
-            {
-                "id": 1,
-                "tipo": "Bacon"
-            },
-            {
-                "id": 2,
-                "tipo": "Cheddar"
-            },
-            {
-                "id": 3,
-                "tipo": "Salame"
-            },
-            {
-                "id": 4,
-                "tipo": "Tomate"
-            },
-            {
-                "id": 4,
-                "tipo": "Cebola roxa"
-            },
-            {
-                "id": 4,
-                "tipo": "Pepino"
-            }
-        ]
-    },
-    "status": [
-        {
-            "id": 1,
-            "tipo": "Solicitado"
-        },
-        {
-            "id": 2,
-            "tipo": "Em produção"
-        },
-        {
-            "id": 3,
-            "tipo": "Finalizado"
-        }
+  "modelos": {
+    "estilo": [
+      {
+        "id": 1,
+        "tipo": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "tipo": "3 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
+      }
     ],
-    "burgers": []
+    "forca": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie burger"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 4,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 4,
+        "tipo": "Pepino"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "desejo": [
+    {
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 2
+    },
+    {
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 3
+    },
+    {
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 4
+    },
+    {
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 5
+    },
+    {
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 6
+    },
+    {
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 7
+    },
+    {
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 8
+    },
+    {
+      "nome": "",
+      "estilo": "",
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 9
+    },
+    {
+      "nome": "",
+      "estilo": "",
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 10
+    },
+    {
+      "nome": "",
+      "estilo": "",
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 11
+    },
+    {
+      "nome": "",
+      "estilo": "",
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 12
+    },
+    {
+      "nome": "",
+      "estilo": "",
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 13
+    },
+    {
+      "nome": "",
+      "estilo": "",
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 14
+    },
+    {
+      "nome": "",
+      "estilo": "",
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 15
+    },
+    {
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 16
+    },
+    {
+      "nome": "",
+      "estilo": "",
+      "forca": "",
+      "status": "Solicitado",
+      "id": 17
+    },
+    {
+      "nome": "",
+      "estilo": "",
+      "forca": "",
+      "status": "Solicitado",
+      "id": 18
+    },
+    {
+      "nome": null,
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 19
+    },
+    {
+      "nome": "Robert",
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 20
+    },
+    {
+      "nome": "",
+      "estilo": "",
+      "forca": "",
+      "status": "Solicitado",
+      "id": 21
+    },
+    {
+      "nome": null,
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 22
+    },
+    {
+      "nome": "a",
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 23
+    },
+    {
+      "nome": "",
+      "estilo": "",
+      "forca": "",
+      "status": "Solicitado",
+      "id": 24
+    },
+    {
+      "nome": "",
+      "estilo": "",
+      "forca": "",
+      "status": "Solicitado",
+      "id": 25
+    },
+    {
+      "nome": "a",
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 26
+    },
+    {
+      "nome": null,
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 27
+    },
+    {
+      "nome": "a",
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 28
+    },
+    {
+      "nome": null,
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 29
+    },
+    {
+      "nome": null,
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 30
+    },
+    {
+      "nome": null,
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 31
+    },
+    {
+      "nome": null,
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 32
+    },
+    {
+      "nome": null,
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 33
+    },
+    {
+      "nome": null,
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 34
+    },
+    {
+      "nome": null,
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 35
+    },
+    {
+      "nome": null,
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 36
+    },
+    {
+      "nome": null,
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 37
+    },
+    {
+      "nome": null,
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 38
+    },
+    {
+      "nome": null,
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 39
+    },
+    {
+      "nome": null,
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 40
+    },
+    {
+      "nome": null,
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 41
+    },
+    {
+      "nome": null,
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 42
+    },
+    {
+      "nome": null,
+      "estilo": [
+        {
+          "id": 1,
+          "tipo": "Italiano Branco"
+        },
+        {
+          "id": 2,
+          "tipo": "3 Queijos"
+        },
+        {
+          "id": 3,
+          "tipo": "Parmesão e Orégano"
+        },
+        {
+          "id": 4,
+          "tipo": "Integral"
+        }
+      ],
+      "forca": [
+        {
+          "id": 1,
+          "tipo": "Maminha"
+        },
+        {
+          "id": 2,
+          "tipo": "Alcatra"
+        },
+        {
+          "id": 3,
+          "tipo": "Picanha"
+        },
+        {
+          "id": 4,
+          "tipo": "Veggie burger"
+        }
+      ],
+      "status": "Solicitado",
+      "id": 43
+    }
+  ]
 }
